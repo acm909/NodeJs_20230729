@@ -1,7 +1,0 @@
-function cuadrado (longitud) {
-  return Array(longitud)
-    .fill('+'.repeat(longitud))
-    .join('\n')
-}
-
-console.log(cuadrado(4))
